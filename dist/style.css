@@ -1,7 +1,16 @@
 body {
-    padding-top: 56px;
+    /* padding-top: 56px; */
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .row {
     padding: 10px 0 10px 0;
+}
+
+.table-size {
+    max-height: 36vh;
+    overflow: auto;
 }
