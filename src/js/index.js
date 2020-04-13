@@ -205,7 +205,7 @@ function displayAllRegion() {
         }
 
         if (country.NewDeaths === 0) {
-            listItem = listItem.concat(`<td>${country.NewConfirmed}</td>`)
+            listItem = listItem.concat(`<td>${country.NewDeaths}</td>`)
         } else {
             listItem = listItem.concat(`<td class="text-danger">${country.NewDeaths}</td>`)
         }
@@ -223,7 +223,7 @@ function displayAllRegion() {
         }
 
         if (country.TotalRecovered === 0) {
-            listItem = listItem.concat(`<td>${country.NewRecovered}</td>`)
+            listItem = listItem.concat(`<td>${country.TotalRecovered}</td>`)
         } else {
             listItem = listItem.concat(`<td class="text-success">${country.TotalRecovered}</td>`)
         }
